@@ -17,6 +17,10 @@ presenteras med en rubrik och hur den ser ut med olika props. Obligatoriska prop
 för varje komponent, men ni får gärna skapa flera props. Ta inspiration från länkarna
 på varje komponent.
 
+### Förkunskaper
+
+Läs på fram till och med "Passing Props to a Component" på [react.dev](https://react.dev/learn) under sektionen "Describing the ui"
+
 1. [Buttons](https://flowbite-react.com/buttons)
    Obligatoriska Props: size, color, disabled
 
