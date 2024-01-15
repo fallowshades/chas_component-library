@@ -1,29 +1,34 @@
+import { FaHome } from 'react-icons/fa'
+import { FaCat } from 'react-icons/fa6'
+import { FcAbout } from 'react-icons/fc'
+
+import { Badge } from 'flowbite-react'
 const Menu = () => {
   return (
     <header>
       <h1>Kattsidan</h1>
       <nav>
-        <div class="menu-toggle">
-          <i class="fas fa-bars"></i>
+        <div className="menu-toggle">
+          <i className="fas fa-bars"></i>
         </div>
 
-        <div class="menu">
-          <a href="#" class="fa fa-home">
-            {' '}
+        <div className={'menu flex flex-row gap-2'}>
+          <Badge color="gray" icon={FaHome}>
             Start
-          </a>
-          <a href="#" class="fa-brands fa-github-square">
+          </Badge>
+
+          <Badge color="gray" icon={FaCat}>
+            <span>Katter</span>
+          </Badge>
+
+          <Badge color="gray" icon={FcAbout}>
             {' '}
-            Katter
-          </a>
-          <a href="#" class="fa fa-info">
-            {' '}
-            Om oss
-          </a>
-          <a href="#" class="fa fa-envelope">
-            {' '}
+            <span> Om oss</span>
+          </Badge>
+
+          <Badge color="gray" icon={FcAbout}>
             Kontakt
-          </a>
+          </Badge>
         </div>
       </nav>
     </header>

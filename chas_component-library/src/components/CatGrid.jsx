@@ -1,11 +1,11 @@
 const CatGrid = () => {
   return (
-    <div class="section">
+    <div className="section">
       <h2>Kattbilder</h2>
       <p>
         Kolla in några söta kattbilder här. Du kan lägga till fler bilder nedan.
       </p>
-      <div class="catGrid">
+      <div className="catGrid">
         <img src="images/3.webp" alt="Katt 3" />
         <img src="images/4.webp" alt="Katt 4" />
         <img src="images/5.webp" alt="Katt 5" />

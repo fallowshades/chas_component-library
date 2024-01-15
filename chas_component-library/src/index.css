@@ -8,6 +8,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 html {
   font-size: 100%;
@@ -201,6 +206,8 @@ footer {
 
   .menu {
     display: block;
+    display: flex;
+    flex-direction: row; /* Ensure this property is set to row */
   }
   .menu-toggle {
     display: none;

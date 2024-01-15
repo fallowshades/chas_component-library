@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div class="section">
+    <div className="section">
       <h2>Våra Katter</h2>
       <p>
         Här kan du läsa om några av våra underbara katter och deras
