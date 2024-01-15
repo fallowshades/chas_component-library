@@ -1,6 +1,8 @@
 import { Button } from 'flowbite-react'
 import { Alert } from 'flowbite-react'
 import { useState } from 'react'
+
+import { Card } from 'flowbite-react'
 const Hero = () => {
   const [toggle, setToggle] = useState(false)
 
@@ -13,7 +15,11 @@ const Hero = () => {
     }, 3000)
   }
   return (
-    <div className="container">
+    <Card
+      className="max-w-full"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="./images/1.webp"
+    >
       <div className="section section1">
         <div className="section1Text">
           <h2>Välkommen till vår kattsida</h2>
@@ -31,7 +37,7 @@ const Hero = () => {
         </div>
         <img src="images/1.webp" alt="Katt 1" />
       </div>
-    </div>
+    </Card>
   )
 }
 export default Hero
